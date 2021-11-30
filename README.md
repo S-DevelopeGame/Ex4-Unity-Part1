@@ -18,3 +18,13 @@
 נשתמש בעכבר על מנת להזיז את השחקן וכאשר נרצה לחצוב את ההר נלחץ על החצים לאיזה כיוון ולאח מכן על X.
 * [תזוזת השחקן-keyboardMover](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New2/Player/KeyboardMover1.cs),
 * [חציבת ההר-cut](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New2/Player/KeyboardMoverCut.cs).
+
+לפני חציבת ההר:
+
+![alt text](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/before.jpeg)
+
+אחרי חציבת ההר:
+
+![alt text](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/after.jpeg)
+
+קישור למשחק : https://snir1551.itch.io/brea-the-mountain :)
