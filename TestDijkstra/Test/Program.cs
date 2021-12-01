@@ -18,7 +18,10 @@ namespace Test
 
         public int getW(int node)
         {
-            return 1;
+            if (node%2 == 0)
+                return 1;
+            else
+                return 2;
         }
 
         public IEnumerable<int> Neighbors(int node)
@@ -32,7 +35,10 @@ namespace Test
     {
         public int getW((int, int) node)
         {
-            return 1;
+            if (node.Item1 % 2 == 0 && node.Item2 % 2 == 0)
+                return 1;
+            else
+                return 2;
         }
 
         public IEnumerable<IntPair> Neighbors(IntPair node)
@@ -51,13 +57,12 @@ namespace Test
             Console.WriteLine("Start Dijkstra Test");
 
             Console.WriteLine("  ");
-            Console.WriteLine("Test No 1 ");
             var intGraph = new IntGraph();
             var path = Dijkstra.GetPath(intGraph, 90, 95);
             Console.WriteLine("Test No 1 ");
             var pathString = String.Join(",", path.ToArray());
             Console.WriteLine("path is: " + pathString);
-            Debug.Assert(pathString == "90,91,92,93,94,95");
+            Debug.Assert(pathString == "90,92,94,95");
             path = Dijkstra.GetPath(intGraph, 85, 80);
             pathString = string.Join(",", path.ToArray());
             Console.WriteLine("path is: " + pathString);
@@ -67,7 +72,7 @@ namespace Test
             var path2 = Dijkstra.GetPath(intPairGraph, (9, 5), (7, 6));
             pathString = string.Join(",", path2.ToArray());
             Console.WriteLine("path is: " + pathString);
-            Debug.Assert(pathString == "(9, 5),(9, 6),(8, 6),(7, 6)");
+            Debug.Assert(pathString == "(9, 5),(8, 5),(8, 6),(7, 6)");
 
             // Here we should get an empty path because of maxiterations:
             //int maxiterations = 1000;
