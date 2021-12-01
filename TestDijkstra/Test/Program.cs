@@ -27,6 +27,7 @@ namespace Test
         public IEnumerable<int> Neighbors(int node)
         {
             yield return node + 1;
+            yield return node + 2;
             yield return node - 1;
         }
     }
