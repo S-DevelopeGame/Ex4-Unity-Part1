@@ -5,7 +5,6 @@ using UnityEngine;
 public class KeyboardMover1 : MonoBehaviour
 {
     protected Vector3 saveStep;
-    protected Vector3 currPosition;
     protected Vector3 NewPosition()
     {
         if (Input.GetKeyDown(KeyCode.LeftArrow))
