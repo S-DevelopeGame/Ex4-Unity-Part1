@@ -6,7 +6,6 @@ using UnityEngine.Tilemaps;
 
 public class TilemapWGraph : IWGraph<Vector3Int>
 {
-    private Dictionary<TileBase, int> w; //map of tilebases with weights
     private Tilemap tilemap;
     private AllowedTilesW allowedTiles;
 
