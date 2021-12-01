@@ -45,7 +45,7 @@ public class TargetMoverDijkstra : MonoBehaviour
     protected virtual void Start()
     {
 
-        tilemapGraph = new TilemapWGraph(tilemap, allowedTiles, 1);
+        tilemapGraph = new TilemapWGraph(tilemap, allowedTiles);
         timeBetweenSteps = 1 / speed;
         StartCoroutine(MoveTowardsTheTarget());
     }
