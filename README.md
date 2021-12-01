@@ -10,7 +10,6 @@
 ## ג-שימוש באלגוריתם dijkstra על מנת לשנות את מהירות השחקן באריחים מסויימים
 השתמשנו באלגוריתם מהסעיף הקודם על מנת לתת משקל שונה לכל tileBase וכאשר השחקן ילך על אריח מסויים הוא יהיה יותר מהיר או יותר איטי בהתאם למשקל,
 כלומר אם המשקל באותו אריח גבוה כך השחקן ילך לאט יותר ולהיפך.
-* [הגדרת המשקל](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Tile/WeightedTile.cs),
 * [tileMapWGraph](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Tile/TilemapWGraph.cs),
 * [allowedTiles](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Tile/AllowedTilesW.cs).
 
