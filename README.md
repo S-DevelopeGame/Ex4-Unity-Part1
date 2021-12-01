@@ -1,3 +1,5 @@
+<div lang="he" dir="rtl">
+
 # בניית עולם ואלגוריתמים בשני מימדים      
 
 בחרנו בשלושת הסעיפים הבאים:
@@ -28,3 +30,5 @@
 ![alt text](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/after.jpeg)
 
 קישור למשחק : https://snir1551.itch.io/brea-the-mountain :)
+
+</div>
