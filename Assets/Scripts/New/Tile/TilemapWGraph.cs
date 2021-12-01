@@ -9,8 +9,8 @@ public class TilemapWGraph : IWGraph<Vector3Int>
     private Tilemap tilemap;
     private AllowedTilesW allowedTiles;
 
-    //same weights
-    public TilemapWGraph(Tilemap tilemap1, AllowedTilesW allowedTiles1, int weight)
+
+    public TilemapWGraph(Tilemap tilemap1, AllowedTilesW allowedTiles1)
     {
         this.tilemap = tilemap1;
         this.allowedTiles = allowedTiles1;
