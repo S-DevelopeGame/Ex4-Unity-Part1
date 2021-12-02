@@ -14,7 +14,8 @@
 השתמשנו באלגוריתם מהסעיף הקודם על מנת לתת משקל שונה לכל tileBase וכאשר השחקן ילך על אריח מסויים הוא יהיה יותר מהיר או יותר איטי בהתאם למשקל,
 כלומר אם המשקל באותו אריח גבוה כך השחקן ילך לאט יותר ולהיפך.
 * [tileMapWGraph](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Tile/TilemapWGraph.cs),
-* [allowedTiles](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Tile/AllowedTilesW.cs).
+* [allowedTiles](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Tile/AllowedTilesW.cs),
+* [ClickMoverDijkstra](https://github.com/S-DevelopeGame/Ex4-Unity-Part1/blob/master/Assets/Scripts/New/Player/ClickMoverDijkstra.cs)
 
 ## ה- השחקן יכול לחצוב בהר ולהפוך אותו לדשא
 נשתמש בעכבר על מנת להזיז את השחקן וכאשר נרצה לחצוב את ההר נלחץ על החצים לאיזה כיוון ולאחר מכן על X.
